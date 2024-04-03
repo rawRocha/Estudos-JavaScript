@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+    background-color: aliceblue;
+}
+
+
+.container {
+    background-color: aliceblue;
+    max-width: 580px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/*
+form label,
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+*/
+
+button {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 150px;
+  }
+  
+  button:hover {
+    background-color: #f7fafa;
+  }
+  
+  button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+
+form input {
+    font-size: 24px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.relogio{
+    font-size: 2em;
+}
+
+.pausado {
+    color: red;
+}
+
+input{
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 250px;
+}
+
+ul{
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.apagar{
+    width: 100px;
+}
+

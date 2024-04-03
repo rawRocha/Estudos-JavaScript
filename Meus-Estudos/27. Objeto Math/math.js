@@ -1,0 +1,6 @@
+let num1 = (Math.random() * (10 - 1) + 1)
+num1 = num1.toFixed(2)
+console.log(`O valor de num1: ${num1}`)
+console.log(`num1 arredondado pra menos: ${Math.floor(num1)}`)
+console.log(`num1 arredondado para mais: ${Math.ceil(num1)}`)
+console.log(`num1 arredondado automaticamente: ${Math.round(num1)}`)
