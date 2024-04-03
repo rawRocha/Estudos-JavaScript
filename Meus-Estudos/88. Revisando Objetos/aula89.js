@@ -27,7 +27,7 @@ pessoa1.falaNome = function(){
 pessoa1.falaNome()
 
 //adicionando idade a pessoa1
-pessoa1.idade = 04
+pessoa1.idade = 4
 
 //adicionando metodo getAnoDeNascimento
 pessoa1.getAnoDeNascimento = function(){
