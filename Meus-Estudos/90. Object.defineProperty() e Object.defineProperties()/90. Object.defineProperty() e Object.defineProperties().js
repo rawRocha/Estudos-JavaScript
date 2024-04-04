@@ -1,4 +1,7 @@
-/* O método Object.defineProperty() em JavaScript é usado para definir novas propriedades ou modificar propriedades existentes diretamente em UM objeto. Ele oferece controle detalhado sobre as propriedades do objeto, permitindo especificar descritores de propriedade. */
+/* O método Object.defineProperty() em JavaScript é usado para definir
+ novas propriedades ou modificar propriedades existentes diretamente em
+  UM objeto. Ele oferece controle detalhado sobre as propriedades do
+   objeto, permitindo especificar descritores de propriedade. */
 
 //Por exemplo:
 
@@ -20,7 +23,9 @@ const p1 = new Produto('Camisa', 20, 3)
 p1.estoque = 5000 // não altera o valor de estoque, estoque está como writable: false.
 console.log(p1)
 
-/* O método Object.defineProperties() em JavaScript é utilizado para definir novas propriedades ou modificar propriedades existentes em um objeto. Ele retorna o próprio objeto após a operação. */
+/* O método Object.defineProperties() em JavaScript é utilizado para 
+definir novas propriedades ou modificar propriedades existentes em um 
+objeto. Ele retorna o próprio objeto após a operação. */
 
 const obj = {};
 
@@ -43,10 +48,15 @@ Object.defineProperties(obj, {
 console.log(obj)
 
 /* Descritores de Dados:
-configurable: Define se o tipo deste descritor de propriedade pode ser modificado e se a propriedade pode ser apagada do objeto correspondente. O valor padrão é false.
-enumerable: Define se a propriedade aparece durante a enumeração das propriedades do objeto correspondente. O valor padrão é false.
-value: O valor associado à propriedade. Pode ser qualquer valor válido em JavaScript (número, objeto, função etc.). O valor padrão é undefined.
-writable: Define se o valor associado à propriedade pode ser modificado com o operador de atribuição (=). O valor padrão é false. */
+configurable: Define se o tipo deste descritor de propriedade pode ser 
+modificado e se a propriedade pode ser apagada do objeto correspondente. 
+O valor padrão é false.
+enumerable: Define se a propriedade aparece durante a enumeração das
+ propriedades do objeto correspondente. O valor padrão é false.
+value: O valor associado à propriedade. Pode ser qualquer valor válido 
+em JavaScript (número, objeto, função etc.). O valor padrão é undefined.
+writable: Define se o valor associado à propriedade pode ser modificado 
+com o operador de atribuição (=). O valor padrão é false. */
 
 //para retornar as chaves do obj em um array usamos o object.keys
 
