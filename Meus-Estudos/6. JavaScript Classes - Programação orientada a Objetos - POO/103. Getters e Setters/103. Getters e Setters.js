@@ -23,12 +23,12 @@ for (let i = 0; i <= 200; i++) {
 
 console.log(fusca)
 
-//Limite de[_velocidade] foi protegido.
-//Porém, a propriedade[_velocidade] ainda não protegida
+//Limite de velocidade foi protegido.
+//Porém, a chave velocidade ainda não está protegida
 //alterações diretas são possíveis.
 //Por Exemplo.:
 /* 
-fusca[_velocidade] = 500
+fusca.velocidade = 500
 console.log(fusca)
 
 precisamos privar a chave do nosso objeto */
