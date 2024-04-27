@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(86, 84, 84);
+    
+}
+
+main{
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    padding: 30px;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+input{
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid rgb(151, 151, 236);
+    
+    outline: 0;
+}
+
+button{
+    font-size: 1.1em;
+    padding: 5px;
+    border: none;
+    background-color: rgb(151, 151, 236);
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: rgb(190, 190, 234);
+}
+
+.error-text{
+    font-size: 0.7em;
+    margin-bottom: 5px;
+    color: red;
+}
+
+label{
+    margin-top: 5px;
+}
