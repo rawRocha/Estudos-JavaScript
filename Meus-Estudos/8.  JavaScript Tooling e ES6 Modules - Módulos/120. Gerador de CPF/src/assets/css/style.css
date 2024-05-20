@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+    background-color: rgb(249, 252, 252);
+}
+
+
+.conteiner-principal {
+    background-color: rgb(255, 255, 255);
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form label,
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+button:hover{
+    background-color: rgb(205, 203, 203);
+}
+
+form input {
+    font-size: 24px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 20px;
+}
+
+form button:hover {
+    background-color: aqua;
+    cursor: pointer;
+    border: solid 1px;
+}
+
+form button:active {
+    background-color: aquamarine;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+}
+
+button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.saida{
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border-color: #a3a3a3;
+    font-size: 22px;
+    color: #676767;
+}
+
+.res{
+    display: flex;
+    flex-direction: column;
+}
