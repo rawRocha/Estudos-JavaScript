@@ -23,7 +23,7 @@ function novaSenha(){
         chkSimbolos.checked
     )
 
-    return senha
+    return senha || 'Nada selecionado'
 }
 
 

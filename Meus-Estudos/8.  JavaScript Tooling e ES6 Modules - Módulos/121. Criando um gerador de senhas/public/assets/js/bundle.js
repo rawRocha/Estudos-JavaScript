@@ -28,7 +28,7 @@ var gerar = document.querySelector('.gerar');
 });
 function novaSenha() {
   var senha = (0,_geradores__WEBPACK_IMPORTED_MODULE_0__["default"])(qtdChar.value, chkMaiusculas.checked, chkMinusculas.checked, chkNumeros.checked, chkSimbolos.checked);
-  return senha;
+  return senha || 'Nada selecionado';
 }
 
 /***/ }),
